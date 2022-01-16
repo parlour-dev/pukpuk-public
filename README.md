@@ -24,11 +24,31 @@ It also posed a challenge for us as we wanted to use frameworks and solutions wh
 * Golang
 
 ## 📱   The App
-The app consists of three main screens: offer, map and earn. 
-The layout can bee seen at https://imgur.com/a/3jfIbnr.
+The app consists of three main screens: Offer, Earn and the Map. 
 Designing and coding PukPuk from scratch took 2 months and we were responsible for every step of the process.
+
+The layout of PukPuk is as following:
 
 <img src="https://parlour.dev/static/app-41f22a34396d4e7409bc3f9ca3567934.png" width=100%/>
 
 ## 🔨 How to build?
 
+First, install Expo and log in to your account ([described here](https://docs.expo.dev/get-started/installation/)).
+
+Then, install the dependencies:
+
+```shell
+yarn
+```
+
+And finally, you can start the app in development mode...
+
+```shell
+yarn start
+```
+
+...or build a working package:
+
+```shell
+yarn expo build:android
+```
